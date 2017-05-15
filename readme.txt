@@ -1,0 +1,1 @@
+Yafoo! Japanのサイトです。
