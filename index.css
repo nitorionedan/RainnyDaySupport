@@ -1,5 +1,58 @@
 a
 {
-  transition: color 0.3s ease 0s;
+  text-decoration: none;
 }
 
+/*未訪問リンク*/
+a:link
+{
+  color: white;
+}
+
+
+/*訪問済みリンク*/
+a:visited
+{
+  color: red;
+}
+
+
+/*タイトル用*/
+title_font
+{
+  font-size: 6vw;
+  position: 50% 50%;
+  color: white;
+}
+
+/*メニュー用*/
+menu_font
+{
+  font-size: 3vw;
+  color: white;
+}
+
+
+/*
+ * @brief 背景用
+ * @note  http://coliss.com/articles/build-websites/operation/css/css-responsive-full-background-image-by-sixrevisions.html
+ */
+body
+{
+  background-image: url("img/candle_0.png");
+  /* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+  /* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  background-attachment: fixed;
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: contain;
+  /* 背景画像が読み込まれる前に表示される背景のカラー */
+  background-color: black;
+}
+
+
+/*------------------------------------------------------
+*練習用
+*-------------------------------------------------------*/
